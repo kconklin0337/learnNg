@@ -1,11 +1,11 @@
 angular.module('learnNg', ['ngRoute']);
 
 angular.module('learnNg')
-      .directive('navBar', function(){
-       return {
-         templateUrl: 'html/templates/nav.html',
-       };
-    });
+      .directive('navbar', function(){
+        return {
+          templateUrl: 'html/templates/nav.html',
+        };
+      });
 
 angular.module('learnNg')
         .config(function($routeProvider){
